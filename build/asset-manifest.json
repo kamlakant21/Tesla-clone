@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8865293.css",
+    "main.js": "/static/js/main.a0ff1288.js",
+    "static/media/model-s.jpg": "/static/media/model-s.837afaf129031621c18c.jpg",
+    "static/media/tesla-vid.mp4": "/static/media/tesla-vid.96203742493f064491ec.mp4",
+    "static/media/cybertruck.jpg": "/static/media/cybertruck.a4d226d842c8b5c48e91.jpg",
+    "static/media/model-x.jpg": "/static/media/model-x.7329d6f13f5ae6e4e767.jpg",
+    "static/media/tesla-charger.jpg": "/static/media/tesla-charger.67b60276a51d416242e9.jpg",
+    "index.html": "/index.html",
+    "main.e8865293.css.map": "/static/css/main.e8865293.css.map",
+    "main.a0ff1288.js.map": "/static/js/main.a0ff1288.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8865293.css",
+    "static/js/main.a0ff1288.js"
+  ]
+}
