@@ -9,6 +9,7 @@ import CybertruckPage from "./pages/CybertruckPage";
 import App from "./App";
 import ShopPage from "./pages/ShopPage";
 import { RecoilRoot } from "recoil";
+import CartPage from "./pages/CartPage";
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,14 @@ const router = createBrowserRouter([
     element: (
       <App>
         <ShopPage />
+      </App>
+    ),
+  },
+  {
+    path: "/cart",
+    element: (
+      <App>
+        <CartPage />
       </App>
     ),
   },
