@@ -1,11 +1,23 @@
 import { useRecoilState } from "recoil";
 import { cartState } from "../../components/global-state/cartItems";
 import "./Cart.css";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useRecoilState(cartState);
 
   const handleBuyEverything = () => {
+    toast.success("All items have been purchased and are on the way!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
     setCartItems([]);
   };
 

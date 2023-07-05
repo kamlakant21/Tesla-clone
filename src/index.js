@@ -10,6 +10,7 @@ import App from "./App";
 import ShopPage from "./pages/ShopPage";
 import { RecoilRoot } from "recoil";
 import CartPage from "./pages/CartPage";
+import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
+    <ToastContainer />
     <RecoilRoot>
       <RouterProvider router={router} />
     </RecoilRoot>
