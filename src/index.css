@@ -26,6 +26,13 @@ body {
   scroll-snap-align: start;
 }
 
+.shop-page {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  padding: 100px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

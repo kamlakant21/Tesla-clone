@@ -7,6 +7,7 @@ import ModelSPage from "./pages/ModelSpage";
 import ModelXPage from "./pages/ModelXpage";
 import CybertruckPage from "./pages/CybertruckPage";
 import App from "./App";
+import ShopPage from "./pages/ShopPage";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,14 @@ const router = createBrowserRouter([
     element: (
       <App>
         <CybertruckPage />
+      </App>
+    ),
+  },
+  {
+    path: "/shop",
+    element: (
+      <App>
+        <ShopPage />
       </App>
     ),
   },
