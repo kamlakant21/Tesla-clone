@@ -1,17 +1,8 @@
 import React from "react";
 import "./Product.css";
-// import { useSetRecoilState } from "recoil";
-// import { cartState } from "../../components/global-state/cartItem";
-import { v4 as uuidv4 } from "uuid";
 
 export default function Product(product) {
   const { image, title, description, price } = product;
-  //   const setCart = useSetRecoilState(cartState);
-
-  //   function addToCart() {
-  //     const uniqueId = uuidv4();
-  //     setCart((prevCart) => [...prevCart, { ...product, id: uniqueId }]);
-  //   }
 
   return (
     <div className="product">
